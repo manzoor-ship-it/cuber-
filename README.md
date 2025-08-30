@@ -1,1 +1,3 @@
-# cuber-
+# cuberai
+
+A new Flutter project.

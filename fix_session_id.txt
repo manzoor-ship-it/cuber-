@@ -1,0 +1,9 @@
+The session ID generation in main.dart has a bug. Please replace:
+
+return "dfMessenger-timestamp}-$random-$nanoSeconds";
+
+With:
+
+return "dfMessenger-${timestamp}-$random-$nanoSeconds";
+
+This will fix the 405 error with the Dialogflow API by properly formatting the session ID.

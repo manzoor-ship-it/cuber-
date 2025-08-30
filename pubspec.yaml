@@ -1,0 +1,64 @@
+name: cuberai
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+4
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  video_player: ^2.7.0
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+  shimmer: ^3.0.0
+  google_sign_in: ^6.1.5
+  webview_flutter: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/cuberaiapplogo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Cuber-logo-vector-1-1.png
+    - assets/cuberaiapplogo.jpg
+    - assets/intro.mp4
+    - assets/GreetingGOOD_KnowDMO.mp4
+    - assets/DontKnowDMO_ExplainAskQ.mp4
+    - assets/hrlandingpage.mp4
+    - assets/demo.mp4
+    - assets/AbortCall.mp4
+    - assets/Integration.mp4
+    - assets/products.mp4
+    - assets/company.mp4
+    - assets/who.mp4
+    - assets/why.mp4
+    - assets/zoomcall.mp4
+    - assets/StartCall.mp4
+    - assets/Fallback.mp4
+    - assets/GoodhowRU.mp4
+    - assets/hrwhitepaper.mp4
+    - assets/sendwhitepaper.mp4
+    - assets/Questions.mp4
+    - assets/Objection_Continue.mp4
+    - assets/ITdesklandingpage.mp4
+    - assets/ContinueYES - Ask Q.mp4
+    - assets/nodemo.mp4
+    - assets/sorry.mp4
+    - assets/color.mp4
+    - assets/getname.mp4
+    - assets/FreeTalk.mp4
+    - assets/itwhitepaper.mp4
+    - assets/How.mp4
